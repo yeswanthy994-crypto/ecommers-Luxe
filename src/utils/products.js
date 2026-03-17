@@ -1,0 +1,88 @@
+export const PRODUCTS = [
+  {
+    id: 1, name: 'Silk Cashmere Blazer', price: 389, originalPrice: 520,
+    category: 'Women', tag: 'New',
+    image: 'https://images.unsplash.com/photo-1551232864-3f0890e580d9?w=600&q=80',
+    description: 'Exquisitely crafted from a 70% silk and 30% cashmere blend. Tailored for a relaxed yet refined silhouette.',
+    rating: 4.8, reviews: 124, sizes: ['XS','S','M','L','XL'], colors: ['Ivory','Camel','Noir'],
+  },
+  {
+    id: 2, name: 'Merino Turtleneck', price: 198, originalPrice: null,
+    category: 'Women', tag: 'Bestseller',
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80',
+    description: 'Ultra-fine merino wool sourced from the highlands of New Zealand. Unmatched softness and warmth.',
+    rating: 4.9, reviews: 287, sizes: ['XS','S','M','L'], colors: ['Oatmeal','Forest','Navy'],
+  },
+  {
+    id: 3, name: 'Linen Trousers', price: 245, originalPrice: 310,
+    category: 'Men', tag: 'Sale',
+    image: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80',
+    description: 'Belgian linen in a relaxed wide-leg cut. Breathable, timeless and effortlessly elegant.',
+    rating: 4.6, reviews: 89, sizes: ['28','30','32','34','36'], colors: ['Sand','White','Slate'],
+  },
+  {
+    id: 4, name: 'Leather Oxford Shoes', price: 465, originalPrice: null,
+    category: 'Men', tag: 'New',
+    image: 'https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&q=80',
+    description: 'Full-grain calf leather with hand-stitched Goodyear welt construction. Built to last decades.',
+    rating: 4.9, reviews: 203, sizes: ['6','7','8','9','10','11','12'], colors: ['Cognac','Black'],
+  },
+  {
+    id: 5, name: 'Structured Tote Bag', price: 320, originalPrice: null,
+    category: 'Accessories', tag: 'Bestseller',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80',
+    description: 'Vegetable-tanned full-grain leather. Each bag develops a unique patina with time and use.',
+    rating: 4.7, reviews: 156, sizes: ['One Size'], colors: ['Tan','Black','Burgundy'],
+  },
+  {
+    id: 6, name: 'Cashmere Scarf', price: 175, originalPrice: 220,
+    category: 'Accessories', tag: 'Sale',
+    image: 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=600&q=80',
+    description: 'Grade-A Mongolian cashmere, hand-finished with a delicate fringe. Impossibly soft.',
+    rating: 4.8, reviews: 341, sizes: ['One Size'], colors: ['Blush','Camel','Charcoal'],
+  },
+  {
+    id: 7, name: 'Tailored Wool Coat', price: 695, originalPrice: 890,
+    category: 'Women', tag: 'Sale',
+    image: 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80',
+    description: 'Double-faced wool-cashmere blend. A coat designed to become your most cherished wardrobe piece.',
+    rating: 4.9, reviews: 178, sizes: ['XS','S','M','L','XL'], colors: ['Camel','Black'],
+  },
+  {
+    id: 8, name: 'Classic White Shirt', price: 165, originalPrice: null,
+    category: 'Men', tag: 'New',
+    image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80',
+    description: '120s Egyptian cotton with a subtle sheen. The definitive white shirt, perfectly proportioned.',
+    rating: 4.7, reviews: 412, sizes: ['XS','S','M','L','XL','XXL'], colors: ['White','Blue'],
+  },
+  {
+    id: 9, name: 'Suede Chelsea Boots', price: 395, originalPrice: null,
+    category: 'Women', tag: 'Bestseller',
+    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80',
+    description: 'Spanish suede with a leather sole. The perfect boot for every occasion, season after season.',
+    rating: 4.8, reviews: 267, sizes: ['5','6','7','8','9','10'], colors: ['Tan','Black','Forest'],
+  },
+  {
+    id: 10, name: 'Silk Slip Dress', price: 285, originalPrice: 360,
+    category: 'Women', tag: 'Sale',
+    image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80',
+    description: 'Pure silk charmeuse with a liquid drape. Effortlessly transitions from day to evening.',
+    rating: 4.6, reviews: 134, sizes: ['XS','S','M','L'], colors: ['Champagne','Black','Blush'],
+  },
+  {
+    id: 11, name: 'Leather Belt', price: 120, originalPrice: null,
+    category: 'Accessories', tag: null,
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80',
+    description: 'Horween leather with a polished brass buckle. Ages beautifully with every wear.',
+    rating: 4.5, reviews: 198, sizes: ['S','M','L','XL'], colors: ['Tan','Black'],
+  },
+  {
+    id: 12, name: 'Linen Shirt', price: 195, originalPrice: null,
+    category: 'Men', tag: 'New',
+    image: 'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=600&q=80',
+    description: 'Stonewashed Italian linen with mother-of-pearl buttons. Gets better with every wash.',
+    rating: 4.7, reviews: 221, sizes: ['XS','S','M','L','XL'], colors: ['White','Sky','Ecru'],
+  },
+];
+
+export const CATEGORIES = ['All', 'Women', 'Men', 'Accessories'];
