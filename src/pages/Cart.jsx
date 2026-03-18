@@ -110,7 +110,7 @@ const Cart = () => {
 
           <button
             onClick={() => isLoggedIn ? navigate('/checkout') : navigate('/login', { state: { from: '/cart' } })}
-            style={{ width: '100%', background: '#1a1a1a', color: '#fff', border: 'none', padding: '15px', fontSize: '0.78rem', letterSpacing: '0.2em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Jost', sans-serif' }}>
+            style={{ width: '100%', background: '#1a1a1a', color: '#fff', border: 'none', padding: '15px', fontSize: '0.78rem', letterSpacing: '0.2em', textTransform: 'uppercase', cursor: 'pointer', fontFamily: "'Jost', sans-serif" }}>
             {isLoggedIn ? 'Proceed to Checkout' : 'Sign In to Checkout'}
           </button>
 

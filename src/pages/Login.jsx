@@ -82,7 +82,7 @@ const Login = () => {
                   value={form[id]}
                   onChange={handleChange(id)}
                   placeholder={placeholder}
-                  style={{ width: '100%', padding: '12px 0', borderBottom: `1px solid ${errors[id] ? '#c0392b' : '#d0cbc4'}`, border: 'none', borderBottom: `1px solid ${errors[id] ? '#c0392b' : '#d0cbc4'}`, background: 'transparent', fontSize: '0.95rem', color: '#1a1a1a', outline: 'none', fontFamily: "'Jost', sans-serif" }}
+                  style={{ width: '100%', padding: '12px 0', border: 'none', borderBottom: `1px solid ${errors[id] ? '#c0392b' : '#d0cbc4'}`, background: 'transparent', fontSize: '0.95rem', color: '#1a1a1a', outline: 'none', fontFamily: "'Jost', sans-serif" }}
                 />
                 {errors[id] && <p style={{ color: '#c0392b', fontSize: '0.78rem', marginTop: '4px' }}>{errors[id]}</p>}
               </div>
